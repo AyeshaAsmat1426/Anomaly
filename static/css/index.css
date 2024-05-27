@@ -1,0 +1,97 @@
+.section1image {
+   background-image: url("../css/trizeri-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    height: 100vh;
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  .section1image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    /*background-color: rgba(0, 0, 0, 0.507);*/
+    z-index: 0; 
+    padding:0;
+    margin:0;
+  }
+  
+.text {
+    position: relative; 
+    z-index: 1; 
+    color: white; 
+  
+  }
+  .button{
+    background-color: #3F7652;
+    color:white;
+    padding:8px 55px;
+    margin-top:5%;
+    border:none;
+    font-weight: bold;
+  }
+  .size{
+    font-weight: bold;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .height{
+    height:100vh;
+  }
+  .forms{
+    background-color:white;
+    color:rgb(255, 255, 255);
+    padding:15% 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: transparent;
+  border: 1px solid #3F7652;
+  border-top: 5px dotted  #3F7652;
+}
+.imgwidth{
+    width:60%;
+}
+.section2image {
+    background-image: url("../css/2nd.jpg");
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     height: 100%;
+     width: 100%;
+     padding:0;
+     margin:0;
+   }
+   .section2image::before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height:100%;
+     background-color: rgba(0, 0, 0, 0.507);
+     z-index: 0; 
+     padding:0;
+     margin:0;
+   }
+   
+   .forms_2{
+    color:rgb(255, 255, 255);
+    /* padding:20% 10%; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: transparent;
+    border: 1px solid #3F7652;
+    border-top: 7px solid #3F7652;
+   
+    margin-top:5%;
+   }
+   @media(max-width:768px){
+
+    .forms{
+        padding:30% 1%;
+    }
+   }
